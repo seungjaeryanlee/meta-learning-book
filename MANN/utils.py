@@ -1,4 +1,6 @@
-from scipy.misc import imresize
+# imresize removed in scipy so use OpenCV https://github.com/raghakot/keras-vis/issues/209#issuecomment-586396612
+# from scipy.misc import imresize
+import cv2
 from matplotlib.pyplot import imread
 from os import listdir
 from os.path import splitext
@@ -9,7 +11,7 @@ from numpy import zeros
 def load_image(path,shape=False):
     readed_img = imread(path)
     if shape:
-        readed_img = imresize(readed_img,shape)
+        readed_img = cv2.resize(src=readed_img, dsize=shape)
     return readed_img
 
 def extend_children(path,ftype=False):
