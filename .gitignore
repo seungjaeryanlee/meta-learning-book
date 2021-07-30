@@ -1,6 +1,5 @@
 # Custom
-MANN/data/images_background/
-MANN/data/images_evaluation/
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
