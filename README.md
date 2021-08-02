@@ -1,4 +1,4 @@
 # meta-learning-book
 
-- MANN refactored from [PacktPublishing/Hands-On-One-shot-Learning-with-Python](https://github.com/PacktPublishing/Hands-On-One-shot-Learning-with-Python)
-- SNAIL refactored from [sagelywizard/snail](https://github.com/sagelywizard/snail)
+- Parts of MANN code came from [clemkoa/ntm](https://github.com/clemkoa/ntm)
+- Parts of SNAIL code came from [eambutu/snail-pytorch](https://github.com/eambutu/snail-pytorch)
